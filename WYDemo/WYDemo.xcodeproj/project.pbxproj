@@ -15,6 +15,8 @@
 		95941E7B1F00ECFC00B6011A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95941E791F00ECFC00B6011A /* LaunchScreen.storyboard */; };
 		95941E861F00ECFC00B6011A /* WYDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95941E851F00ECFC00B6011A /* WYDemoTests.m */; };
 		95941E911F00ECFC00B6011A /* WYDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95941E901F00ECFC00B6011A /* WYDemoUITests.m */; };
+		95941EA01F0115F500B6011A /* logistsCompanyAllKeysArrayFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95941E9E1F0115F500B6011A /* logistsCompanyAllKeysArrayFile.plist */; };
+		95941EA11F0115F500B6011A /* logistsCompanyFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95941E9F1F0115F500B6011A /* logistsCompanyFile.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		95941E8C1F00ECFC00B6011A /* WYDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95941E901F00ECFC00B6011A /* WYDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYDemoUITests.m; sourceTree = "<group>"; };
 		95941E921F00ECFC00B6011A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95941E9E1F0115F500B6011A /* logistsCompanyAllKeysArrayFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = logistsCompanyAllKeysArrayFile.plist; sourceTree = "<group>"; };
+		95941E9F1F0115F500B6011A /* logistsCompanyFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = logistsCompanyFile.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		95941E6B1F00ECFC00B6011A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				95941E9E1F0115F500B6011A /* logistsCompanyAllKeysArrayFile.plist */,
+				95941E9F1F0115F500B6011A /* logistsCompanyFile.plist */,
 				95941E6C1F00ECFC00B6011A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -250,7 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95941E7B1F00ECFC00B6011A /* LaunchScreen.storyboard in Resources */,
+				95941EA11F0115F500B6011A /* logistsCompanyFile.plist in Resources */,
 				95941E781F00ECFC00B6011A /* Assets.xcassets in Resources */,
+				95941EA01F0115F500B6011A /* logistsCompanyAllKeysArrayFile.plist in Resources */,
 				95941E761F00ECFC00B6011A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +524,7 @@
 				95941E971F00ECFC00B6011A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95941E981F00ECFC00B6011A /* Build configuration list for PBXNativeTarget "WYDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				95941E9A1F00ECFC00B6011A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95941E9B1F00ECFC00B6011A /* Build configuration list for PBXNativeTarget "WYDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				95941E9D1F00ECFC00B6011A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
